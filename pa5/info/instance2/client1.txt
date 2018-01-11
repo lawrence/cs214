@@ -1,0 +1,149 @@
+Last login: Wed Dec  9 20:41:55 on ---
+--- lawrence$ ./client localhost
+Client has connected to server on machine: "localhost".
+Enter message: 
+open 1
+number of bytes written: 7
+sent: open 1
+ of length: 7
+message from server: "Account 1 was added!"
+Enter message: 
+open 2
+number of bytes written: 7
+sent: open 2
+ of length: 7
+message from server: "Account 2 was added!"
+Enter message: 
+open 2
+number of bytes written: 7
+sent: open 2
+ of length: 7
+message from server: "The account you are trying to put in is already here."
+Enter message: 
+open 3
+number of bytes written: 7
+sent: open 3
+ of length: 7
+message from server: "Account 3 was added!"
+Enter message: 
+open 4
+number of bytes written: 7
+sent: open 4
+ of length: 7
+message from server: "Account 4 was added!"
+Enter message: 
+open 5
+number of bytes written: 7
+sent: open 5
+ of length: 7
+message from server: "Account 5 was added!"
+Enter message: 
+open 6
+number of bytes written: 7
+sent: open 6
+ of length: 7
+message from server: "Account 6 was added!"
+Enter message: 
+open 7
+number of bytes written: 7
+sent: open 7
+ of length: 7
+message from server: "Account 7 was added!"
+Enter message: 
+open 8
+number of bytes written: 7
+sent: open 8
+ of length: 7
+message from server: "Account 8 was added!"
+Enter message: 
+open 9
+number of bytes written: 7
+sent: open 9
+ of length: 7
+message from server: "Account 9 was added!"
+Enter message: 
+open 10
+number of bytes written: 8
+sent: open 10
+ of length: 8
+message from server: "Account 10 was added!"
+Enter message: 
+open 11
+number of bytes written: 8
+sent: open 11
+ of length: 8
+message from server: "Account 11 was added!"
+Enter message: 
+open 12
+number of bytes written: 8
+sent: open 12
+ of length: 8
+message from server: "Account 12 was added!"
+Enter message: 
+open 13
+number of bytes written: 8
+sent: open 13
+ of length: 8
+message from server: "Account 13 was added!"
+Enter message: 
+open 14
+number of bytes written: 8
+sent: open 14
+ of length: 8
+message from server: "Account 14 was added!"
+Enter message: 
+open 15
+number of bytes written: 8
+sent: open 15
+ of length: 8
+message from server: "Account 15 was added!"
+Enter message: 
+open 16
+number of bytes written: 8
+sent: open 16
+ of length: 8
+message from server: "Account 16 was added!"
+Enter message: 
+open 17
+number of bytes written: 8
+sent: open 17
+ of length: 8
+message from server: "Account 17 was added!"
+Enter message: 
+open 18
+number of bytes written: 8
+sent: open 18
+ of length: 8
+message from server: "Account 18 was added!"
+Enter message: 
+open 19
+number of bytes written: 8
+sent: open 19
+ of length: 8
+message from server: "Account 19 was added!"
+Enter message: 
+open 20
+number of bytes written: 8
+sent: open 20
+ of length: 8
+message from server: "Account 20 was added!"
+Enter message: 
+open 21
+number of bytes written: 8
+sent: open 21
+ of length: 8
+message from server: "All the space for accounts in the bank (20) is used."
+Enter message: 
+finish
+number of bytes written: 7
+sent: finish
+ of length: 7
+message from server: "You were not in an account..."
+Enter message: 
+exit
+number of bytes written: 5
+sent: exit
+ of length: 5
+message from server: "exit"
+Exiting from server.
+Disconnected from server.

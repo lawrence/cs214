@@ -1,0 +1,537 @@
+Last login: Wed Dec  9 18:07:35 on ---
+--- $ ./server
+Accepted. Waiting for clients to connect...
+
+20 second bank print out for account sessions:
+(1) --- 
+(2) --- 
+(3) --- 
+(4) --- 
+(5) --- 
+(6) --- 
+(7) --- 
+(8) --- 
+(9) --- 
+(10) --- 
+(11) --- 
+(12) --- 
+(13) --- 
+(14) --- 
+(15) --- 
+(16) --- 
+(17) --- 
+(18) --- 
+(19) --- 
+(20) --- 
+Server accepted connection from client.
+Server accepted connection from client.
+
+20 second bank print out for account sessions:
+(1) --- 
+(2) --- 
+(3) --- 
+(4) --- 
+(5) --- 
+(6) --- 
+(7) --- 
+(8) --- 
+(9) --- 
+(10) --- 
+(11) --- 
+(12) --- 
+(13) --- 
+(14) --- 
+(15) --- 
+(16) --- 
+(17) --- 
+(18) --- 
+(19) --- 
+(20) --- 
+Server accepted connection from client.
+Server accepted connection from client.
+incoming string length: 12
+incoming message: open Jordan
+
+OPEN command recieved
+Account Name: Jordan
+Bank acc: Jordan
+
+20 second bank print out for account sessions:
+(1) IN SERVICE: Jordan (balance: 0.000000)
+(2) --- 
+(3) --- 
+(4) --- 
+(5) --- 
+(6) --- 
+(7) --- 
+(8) --- 
+(9) --- 
+(10) --- 
+(11) --- 
+(12) --- 
+(13) --- 
+(14) --- 
+(15) --- 
+(16) --- 
+(17) --- 
+(18) --- 
+(19) --- 
+(20) --- 
+incoming string length: 11
+incoming message: open Jerry
+
+OPEN command recieved
+Account Name: Jerry
+Bank acc: Jordan
+Bank acc: Jerry
+incoming string length: 12
+incoming message: open Biggie
+
+OPEN command recieved
+Account Name: Biggie
+Bank acc: Jordan
+Bank acc: Jerry
+Bank acc: Biggie
+incoming string length: 13
+incoming message: Open Charles
+
+OPEN command recieved
+Account Name: Charles
+Bank acc: Jordan
+Bank acc: Jerry
+Bank acc: Biggie
+Bank acc: Charles
+
+20 second bank print out for account sessions:
+(1) IN SERVICE: Jordan (balance: 0.000000)
+(2) IN SERVICE: Jerry (balance: 0.000000)
+(3) IN SERVICE: Biggie (balance: 0.000000)
+(4) IN SERVICE: Charles (balance: 0.000000)
+(5) --- 
+(6) --- 
+(7) --- 
+(8) --- 
+(9) --- 
+(10) --- 
+(11) --- 
+(12) --- 
+(13) --- 
+(14) --- 
+(15) --- 
+(16) --- 
+(17) --- 
+(18) --- 
+(19) --- 
+(20) --- 
+incoming string length: 10
+incoming message: open Lars
+
+OPEN command recieved
+Account Name: Lars
+incoming string length: 14
+incoming message: debit 6000.00
+
+DEBIT command received
+Amount credited or debited: 6000.000000.
+
+20 second bank print out for account sessions:
+(1) IN SERVICE: Jordan (balance: 6000.000000)
+(2) IN SERVICE: Jerry (balance: 0.000000)
+(3) IN SERVICE: Biggie (balance: 0.000000)
+(4) IN SERVICE: Charles (balance: 0.000000)
+(5) --- 
+(6) --- 
+(7) --- 
+(8) --- 
+(9) --- 
+(10) --- 
+(11) --- 
+(12) --- 
+(13) --- 
+(14) --- 
+(15) --- 
+(16) --- 
+(17) --- 
+(18) --- 
+(19) --- 
+(20) --- 
+incoming string length: 8
+incoming message: balance
+
+BALANCE command received
+incoming string length: 14
+incoming message: credit 232323
+
+CREDIT command received
+Amount credited or debited: 232323.000000.
+
+20 second bank print out for account sessions:
+(1) IN SERVICE: Jordan (balance: 238323.000000)
+(2) IN SERVICE: Jerry (balance: 0.000000)
+(3) IN SERVICE: Biggie (balance: 0.000000)
+(4) IN SERVICE: Charles (balance: 0.000000)
+(5) --- 
+(6) --- 
+(7) --- 
+(8) --- 
+(9) --- 
+(10) --- 
+(11) --- 
+(12) --- 
+(13) --- 
+(14) --- 
+(15) --- 
+(16) --- 
+(17) --- 
+(18) --- 
+(19) --- 
+(20) --- 
+incoming string length: 16
+incoming message: debit -23232323
+
+DEBIT command received
+Amount credited or debited: -23232324.000000.
+incoming string length: 8
+incoming message: balance
+
+BALANCE command received
+incoming string length: 7
+incoming message: finish
+
+FINISH command received
+
+20 second bank print out for account sessions:
+(1) IN SERVICE: Jordan (balance: 238323.000000)
+(2) NOT IN SERVICE: Jerry (balance: 0.000000)
+(3) IN SERVICE: Biggie (balance: 0.000000)
+(4) IN SERVICE: Charles (balance: 0.000000)
+(5) --- 
+(6) --- 
+(7) --- 
+(8) --- 
+(9) --- 
+(10) --- 
+(11) --- 
+(12) --- 
+(13) --- 
+(14) --- 
+(15) --- 
+(16) --- 
+(17) --- 
+(18) --- 
+(19) --- 
+(20) --- 
+incoming string length: 9
+incoming message: open Tom
+
+OPEN command recieved
+Account Name: Tom
+Bank acc: Jordan
+Bank acc: Jerry
+Bank acc: Biggie
+Bank acc: Charles
+Bank acc: Tom
+incoming string length: 7
+incoming message: finish
+
+FINISH command received
+
+20 second bank print out for account sessions:
+(1) IN SERVICE: Jordan (balance: 238323.000000)
+(2) NOT IN SERVICE: Jerry (balance: 0.000000)
+(3) IN SERVICE: Biggie (balance: 0.000000)
+(4) NOT IN SERVICE: Charles (balance: 0.000000)
+(5) IN SERVICE: Tom (balance: 0.000000)
+(6) --- 
+(7) --- 
+(8) --- 
+(9) --- 
+(10) --- 
+(11) --- 
+(12) --- 
+(13) --- 
+(14) --- 
+(15) --- 
+(16) --- 
+(17) --- 
+(18) --- 
+(19) --- 
+(20) --- 
+incoming string length: 12
+incoming message: open Biggie
+
+OPEN command recieved
+Account Name: Biggie
+NAME: Biggie
+Bank acc: Jordan
+Bank acc: Jerry
+Bank acc: Biggie
+incoming string length: 7
+incoming message: finish
+
+FINISH command received
+
+20 second bank print out for account sessions:
+(1) IN SERVICE: Jordan (balance: 238323.000000)
+(2) NOT IN SERVICE: Jerry (balance: 0.000000)
+(3) IN SERVICE: Biggie (balance: 0.000000)
+(4) NOT IN SERVICE: Charles (balance: 0.000000)
+(5) IN SERVICE: Tom (balance: 0.000000)
+(6) --- 
+(7) --- 
+(8) --- 
+(9) --- 
+(10) --- 
+(11) --- 
+(12) --- 
+(13) --- 
+(14) --- 
+(15) --- 
+(16) --- 
+(17) --- 
+(18) --- 
+(19) --- 
+(20) --- 
+incoming string length: 7
+incoming message: finish
+
+FINISH command received
+incoming string length: 11
+incoming message: open Chris
+
+OPEN command recieved
+Account Name: Chris
+Bank acc: Jordan
+Bank acc: Jerry
+Bank acc: Biggie
+Bank acc: Charles
+Bank acc: Tom
+Bank acc: Chris
+
+20 second bank print out for account sessions:
+(1) IN SERVICE: Jordan (balance: 238323.000000)
+(2) NOT IN SERVICE: Jerry (balance: 0.000000)
+(3) IN SERVICE: Biggie (balance: 0.000000)
+(4) NOT IN SERVICE: Charles (balance: 0.000000)
+(5) NOT IN SERVICE: Tom (balance: 0.000000)
+(6) IN SERVICE: Chris (balance: 0.000000)
+(7) --- 
+(8) --- 
+(9) --- 
+(10) --- 
+(11) --- 
+(12) --- 
+(13) --- 
+(14) --- 
+(15) --- 
+(16) --- 
+(17) --- 
+(18) --- 
+(19) --- 
+(20) --- 
+incoming string length: 10
+incoming message: open Will
+
+OPEN command recieved
+Account Name: Will
+incoming string length: 7
+incoming message: finish
+
+FINISH command received
+incoming string length: 10
+incoming message: open Will
+
+OPEN command recieved
+Account Name: Will
+Bank acc: Jordan
+Bank acc: Jerry
+Bank acc: Biggie
+Bank acc: Charles
+Bank acc: Tom
+Bank acc: Chris
+Bank acc: Will
+
+20 second bank print out for account sessions:
+(1) IN SERVICE: Jordan (balance: 238323.000000)
+(2) NOT IN SERVICE: Jerry (balance: 0.000000)
+(3) IN SERVICE: Biggie (balance: 0.000000)
+(4) NOT IN SERVICE: Charles (balance: 0.000000)
+(5) NOT IN SERVICE: Tom (balance: 0.000000)
+(6) NOT IN SERVICE: Chris (balance: 0.000000)
+(7) IN SERVICE: Will (balance: 0.000000)
+(8) --- 
+(9) --- 
+(10) --- 
+(11) --- 
+(12) --- 
+(13) --- 
+(14) --- 
+(15) --- 
+(16) --- 
+(17) --- 
+(18) --- 
+(19) --- 
+(20) --- 
+incoming string length: 7
+incoming message: finish
+
+FINISH command received
+incoming string length: 10
+incoming message: open Yale
+
+OPEN command recieved
+Account Name: Yale
+Bank acc: Jordan
+Bank acc: Jerry
+Bank acc: Biggie
+Bank acc: Charles
+Bank acc: Tom
+Bank acc: Chris
+Bank acc: Will
+Bank acc: Yale
+incoming string length: 7
+incoming message: finish
+
+FINISH command received
+incoming string length: 5
+incoming message: exit
+
+EXIT command received
+
+20 second bank print out for account sessions:
+(1) IN SERVICE: Jordan (balance: 238323.000000)
+(2) NOT IN SERVICE: Jerry (balance: 0.000000)
+(3) IN SERVICE: Biggie (balance: 0.000000)
+(4) NOT IN SERVICE: Charles (balance: 0.000000)
+(5) NOT IN SERVICE: Tom (balance: 0.000000)
+(6) NOT IN SERVICE: Chris (balance: 0.000000)
+(7) NOT IN SERVICE: Will (balance: 0.000000)
+(8) NOT IN SERVICE: Yale (balance: 0.000000)
+(9) --- 
+(10) --- 
+(11) --- 
+(12) --- 
+(13) --- 
+(14) --- 
+(15) --- 
+(16) --- 
+(17) --- 
+(18) --- 
+(19) --- 
+(20) --- 
+
+20 second bank print out for account sessions:
+(1) IN SERVICE: Jordan (balance: 238323.000000)
+(2) NOT IN SERVICE: Jerry (balance: 0.000000)
+(3) IN SERVICE: Biggie (balance: 0.000000)
+(4) NOT IN SERVICE: Charles (balance: 0.000000)
+(5) NOT IN SERVICE: Tom (balance: 0.000000)
+(6) NOT IN SERVICE: Chris (balance: 0.000000)
+(7) NOT IN SERVICE: Will (balance: 0.000000)
+(8) NOT IN SERVICE: Yale (balance: 0.000000)
+(9) --- 
+(10) --- 
+(11) --- 
+(12) --- 
+(13) --- 
+(14) --- 
+(15) --- 
+(16) --- 
+(17) --- 
+(18) --- 
+(19) --- 
+(20) --- 
+
+20 second bank print out for account sessions:
+(1) IN SERVICE: Jordan (balance: 238323.000000)
+(2) NOT IN SERVICE: Jerry (balance: 0.000000)
+(3) IN SERVICE: Biggie (balance: 0.000000)
+(4) NOT IN SERVICE: Charles (balance: 0.000000)
+(5) NOT IN SERVICE: Tom (balance: 0.000000)
+(6) NOT IN SERVICE: Chris (balance: 0.000000)
+(7) NOT IN SERVICE: Will (balance: 0.000000)
+(8) NOT IN SERVICE: Yale (balance: 0.000000)
+(9) --- 
+(10) --- 
+(11) --- 
+(12) --- 
+(13) --- 
+(14) --- 
+(15) --- 
+(16) --- 
+(17) --- 
+(18) --- 
+(19) --- 
+(20) --- 
+incoming string length: 10
+incoming message: open Gary
+
+OPEN command recieved
+Account Name: Gary
+
+20 second bank print out for account sessions:
+(1) IN SERVICE: Jordan (balance: 238323.000000)
+(2) NOT IN SERVICE: Jerry (balance: 0.000000)
+(3) IN SERVICE: Biggie (balance: 0.000000)
+(4) NOT IN SERVICE: Charles (balance: 0.000000)
+(5) NOT IN SERVICE: Tom (balance: 0.000000)
+(6) NOT IN SERVICE: Chris (balance: 0.000000)
+(7) NOT IN SERVICE: Will (balance: 0.000000)
+(8) NOT IN SERVICE: Yale (balance: 0.000000)
+(9) --- 
+(10) --- 
+(11) --- 
+(12) --- 
+(13) --- 
+(14) --- 
+(15) --- 
+(16) --- 
+(17) --- 
+(18) --- 
+(19) --- 
+(20) --- 
+incoming string length: 10
+incoming message: debit 333
+
+DEBIT command received
+Amount credited or debited: 333.000000.
+incoming string length: 13
+incoming message: credit 34833
+
+CREDIT command received
+Amount credited or debited: 34833.000000.
+incoming string length: 5
+incoming message: exit
+
+EXIT command received
+
+20 second bank print out for account sessions:
+(1) IN SERVICE: Jordan (balance: 238323.000000)
+(2) NOT IN SERVICE: Jerry (balance: 0.000000)
+(3) IN SERVICE: Biggie (balance: 35166.000000)
+(4) NOT IN SERVICE: Charles (balance: 0.000000)
+(5) NOT IN SERVICE: Tom (balance: 0.000000)
+(6) NOT IN SERVICE: Chris (balance: 0.000000)
+(7) NOT IN SERVICE: Will (balance: 0.000000)
+(8) NOT IN SERVICE: Yale (balance: 0.000000)
+(9) --- 
+(10) --- 
+(11) --- 
+(12) --- 
+(13) --- 
+(14) --- 
+(15) --- 
+(16) --- 
+(17) --- 
+(18) --- 
+(19) --- 
+(20) --- 
+incoming string length: 5
+incoming message: exit
+
+EXIT command received
+incoming string length: 5
+incoming message: exit
+
+EXIT command received
+^C

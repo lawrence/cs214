@@ -1,0 +1,78 @@
+SERVER:
+	./server 56700
+
+USER 1:	
+	./client localhost
+
+	input: open John
+		Account John was added!
+	input: open John
+		The account you are trying to put in is already here.
+	input: open Scarlett
+		Account Scarlett was added!
+	input: open Harry
+		Account Harry was added!
+	input: open Mary
+		Account Mary was added!
+	
+	input: start Mary
+		Account Mary found!
+
+	input: debit Mary 500
+		Your balance after debit is now: 500.00
+	input: debit Mary -1000
+		You are withdrawing too much.
+	input: credit Mary -100
+		Your balance after credit is now: 400.00 
+	input: credit Mary -500
+		Your balance after credit is now: -100.00
+	
+	input: start John
+		You're already logged in somewhere else! Please log out.
+	input: open Gary
+		You're already logged in somewhere else! Please log out.
+
+USER 2:
+	./client localhost
+
+	input: start Mary
+		The account is in use! Try again later.
+	input: start John
+		Account John found!
+
+Server:
+	(1) [in use] John
+	(2) [in use]
+	(3) ---
+	(4) ---
+	(5) ---
+	(6) ---
+	(7) ---
+	(8) ---
+	(9) ---
+	(10) ---
+	(11) ---
+	(12) ---
+	(13) ---
+	(14) ---
+	(15) ---
+	(16) ---
+	(17) ---
+	(18) ---
+	(19) ---
+	(20) ---
+
+USER1:
+	input: finisH Mary
+		Logged out!
+	input: debit John 700
+		Did not start an account session.
+	input: debit Mary 700
+		Did not start an account session.
+
+USER3:
+	./client localhost
+
+	input: finish John
+		You were not in an account...
+

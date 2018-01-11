@@ -1,0 +1,56 @@
+Last login: Wed Dec  9 18:07:35 on ---
+--- $ ./client localhost
+
+Client has connected to server on machine: "localhost".
+Enter message: 
+open Jordan
+number of bytes written: 12
+sent: open Jordan
+ of length: 12
+message from server: "Account Jordan was added!"
+message from server: "Account Jordan found!"
+Enter message: 
+open Lars
+number of bytes written: 10
+sent: open Lars
+ of length: 10
+message from server: "You're already logged in somewhere else! Please log out.
+"
+Enter message: 
+debit 6000.00
+number of bytes written: 14
+sent: debit 6000.00
+ of length: 14
+Enter message: 
+balance
+number of bytes written: 8
+sent: balance
+ of length: 8
+message from server: "Your balance now: 6000.000000"
+Enter message: 
+credit 232323
+number of bytes written: 14
+sent: credit 232323
+ of length: 14
+message from server: "Your balance after credit is now: 238323.000000"
+Enter message: 
+debit -23232323
+number of bytes written: 16
+sent: debit -23232323
+ of length: 16
+message from server: "You are withdrawing too much."
+aEnter message: 
+^R
+balance
+number of bytes written: 8
+sent: balance
+ of length: 8
+message from server: "Your balance now: 238323.000000"
+Enter message: 
+exit
+number of bytes written: 5
+sent: exit
+ of length: 5
+message from server: "exit"
+Exiting from server.
+Disconnected from server.

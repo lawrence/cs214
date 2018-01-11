@@ -1,0 +1,85 @@
+Last login: Wed Dec  9 18:07:35 on ---
+--- $ ./client localhost
+
+Client has connected to server on machine: "localhost".
+Enter message: 
+open Jerry
+number of bytes written: 11
+sent: open Jerry
+ of length: 11
+message from server: "Account Jerry was added!"
+message from server: "Account Jerry found!"
+Enter message: 
+finish
+number of bytes written: 7
+sent: finish
+ of length: 7
+message from server: "Logged out!"
+open Enter message: 
+Tom
+number of bytes written: 9
+sent: open Tom
+ of length: 9
+message from server: "Account Tom was added!"
+message from server: "Account Tom found!"
+Enter message: 
+finish
+number of bytes written: 7
+sent: finish
+ of length: 7
+message from server: "Logged out!"
+open Enter message: 
+Chris
+number of bytes written: 11
+sent: open Chris
+ of length: 11
+message from server: "Account Chris was added!"
+message from server: "Account Chris found!"
+Enter message: 
+open Will
+number of bytes written: 10
+sent: open Will
+ of length: 10
+message from server: "You're already logged in somewhere else! Please log out.
+"
+Enter message: 
+finish
+number of bytes written: 7
+sent: finish
+ of length: 7
+message from server: "Logged out!"
+open WEnter message: 
+^R
+open Will
+number of bytes written: 10
+sent: open Will
+ of length: 10
+message from server: "Account Will was added!"
+opeEnter message: 
+^R
+finish
+number of bytes written: 7
+sent: finish
+ of length: 7
+message from server: "Logged out!"
+open Enter message: 
+Yale
+number of bytes written: 10
+sent: open Yale
+ of length: 10
+message from server: "Account Yale was added!"
+message from server: "Account Yale found!"
+Enter message: 
+finish
+number of bytes written: 7
+sent: finish
+ of length: 7
+message from server: "Logged out!"
+exEnter message: 
+it
+number of bytes written: 5
+sent: exit
+ of length: 5
+message from server: "exit"
+Exiting from server.
+Disconnected from server.

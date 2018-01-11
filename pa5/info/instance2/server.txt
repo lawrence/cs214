@@ -1,0 +1,278 @@
+Last login: Wed Dec  9 20:41:39 on ---
+---$ ./server
+Accepted. Waiting for clients to connect...
+
+20 second bank print out for account sessions:
+(1) --- 
+(2) --- 
+(3) --- 
+(4) --- 
+(5) --- 
+(6) --- 
+(7) --- 
+(8) --- 
+(9) --- 
+(10) --- 
+(11) --- 
+(12) --- 
+(13) --- 
+(14) --- 
+(15) --- 
+(16) --- 
+(17) --- 
+(18) --- 
+(19) --- 
+(20) --- 
+Server accepted connection from client.
+incoming string length: 7
+incoming message: open 1
+
+OPEN command recieved
+Account Name: 1
+
+20 second bank print out for account sessions:
+(1) NOT IN SERVICE: 1 (balance: 0.000000)
+(2) --- 
+(3) --- 
+(4) --- 
+(5) --- 
+(6) --- 
+(7) --- 
+(8) --- 
+(9) --- 
+(10) --- 
+(11) --- 
+(12) --- 
+(13) --- 
+(14) --- 
+(15) --- 
+(16) --- 
+(17) --- 
+(18) --- 
+(19) --- 
+(20) --- 
+incoming string length: 7
+incoming message: open 2
+
+OPEN command recieved
+Account Name: 2
+incoming string length: 7
+incoming message: open 2
+
+OPEN command recieved
+Account Name: 2
+NAME: 2
+incoming string length: 7
+incoming message: open 3
+
+OPEN command recieved
+Account Name: 3
+incoming string length: 7
+incoming message: open 4
+
+OPEN command recieved
+Account Name: 4
+
+20 second bank print out for account sessions:
+(1) NOT IN SERVICE: 1 (balance: 0.000000)
+(2) NOT IN SERVICE: 2 (balance: 0.000000)
+(3) NOT IN SERVICE: 3 (balance: 0.000000)
+(4) NOT IN SERVICE: 4 (balance: 0.000000)
+(5) --- 
+(6) --- 
+(7) --- 
+(8) --- 
+(9) --- 
+(10) --- 
+(11) --- 
+(12) --- 
+(13) --- 
+(14) --- 
+(15) --- 
+(16) --- 
+(17) --- 
+(18) --- 
+(19) --- 
+(20) --- 
+incoming string length: 7
+incoming message: open 5
+
+OPEN command recieved
+Account Name: 5
+incoming string length: 7
+incoming message: open 6
+
+OPEN command recieved
+Account Name: 6
+incoming string length: 7
+incoming message: open 7
+
+OPEN command recieved
+Account Name: 7
+incoming string length: 7
+incoming message: open 8
+
+OPEN command recieved
+Account Name: 8
+
+20 second bank print out for account sessions:
+(1) NOT IN SERVICE: 1 (balance: 0.000000)
+(2) NOT IN SERVICE: 2 (balance: 0.000000)
+(3) NOT IN SERVICE: 3 (balance: 0.000000)
+(4) NOT IN SERVICE: 4 (balance: 0.000000)
+(5) NOT IN SERVICE: 5 (balance: 0.000000)
+(6) NOT IN SERVICE: 6 (balance: 0.000000)
+(7) NOT IN SERVICE: 7 (balance: 0.000000)
+(8) NOT IN SERVICE: 8 (balance: 0.000000)
+(9) --- 
+(10) --- 
+(11) --- 
+(12) --- 
+(13) --- 
+(14) --- 
+(15) --- 
+(16) --- 
+(17) --- 
+(18) --- 
+(19) --- 
+(20) --- 
+incoming string length: 7
+incoming message: open 9
+
+OPEN command recieved
+Account Name: 9
+incoming string length: 8
+incoming message: open 10
+
+OPEN command recieved
+Account Name: 10
+incoming string length: 8
+incoming message: open 11
+
+OPEN command recieved
+Account Name: 11
+incoming string length: 8
+incoming message: open 12
+
+OPEN command recieved
+Account Name: 12
+incoming string length: 8
+incoming message: open 13
+
+OPEN command recieved
+Account Name: 13
+
+20 second bank print out for account sessions:
+(1) NOT IN SERVICE: 1 (balance: 0.000000)
+(2) NOT IN SERVICE: 2 (balance: 0.000000)
+(3) NOT IN SERVICE: 3 (balance: 0.000000)
+(4) NOT IN SERVICE: 4 (balance: 0.000000)
+(5) NOT IN SERVICE: 5 (balance: 0.000000)
+(6) NOT IN SERVICE: 6 (balance: 0.000000)
+(7) NOT IN SERVICE: 7 (balance: 0.000000)
+(8) NOT IN SERVICE: 8 (balance: 0.000000)
+(9) NOT IN SERVICE: 9 (balance: 0.000000)
+(10) NOT IN SERVICE: 10 (balance: 0.000000)
+(11) NOT IN SERVICE: 11 (balance: 0.000000)
+(12) NOT IN SERVICE: 12 (balance: 0.000000)
+(13) NOT IN SERVICE: 13 (balance: 0.000000)
+(14) --- 
+(15) --- 
+(16) --- 
+(17) --- 
+(18) --- 
+(19) --- 
+(20) --- 
+incoming string length: 8
+incoming message: open 14
+
+OPEN command recieved
+Account Name: 14
+incoming string length: 8
+incoming message: open 15
+
+OPEN command recieved
+Account Name: 15
+incoming string length: 8
+incoming message: open 16
+
+OPEN command recieved
+Account Name: 16
+incoming string length: 8
+incoming message: open 17
+
+OPEN command recieved
+Account Name: 17
+
+20 second bank print out for account sessions:
+(1) NOT IN SERVICE: 1 (balance: 0.000000)
+(2) NOT IN SERVICE: 2 (balance: 0.000000)
+(3) NOT IN SERVICE: 3 (balance: 0.000000)
+(4) NOT IN SERVICE: 4 (balance: 0.000000)
+(5) NOT IN SERVICE: 5 (balance: 0.000000)
+(6) NOT IN SERVICE: 6 (balance: 0.000000)
+(7) NOT IN SERVICE: 7 (balance: 0.000000)
+(8) NOT IN SERVICE: 8 (balance: 0.000000)
+(9) NOT IN SERVICE: 9 (balance: 0.000000)
+(10) NOT IN SERVICE: 10 (balance: 0.000000)
+(11) NOT IN SERVICE: 11 (balance: 0.000000)
+(12) NOT IN SERVICE: 12 (balance: 0.000000)
+(13) NOT IN SERVICE: 13 (balance: 0.000000)
+(14) NOT IN SERVICE: 14 (balance: 0.000000)
+(15) NOT IN SERVICE: 15 (balance: 0.000000)
+(16) NOT IN SERVICE: 16 (balance: 0.000000)
+(17) NOT IN SERVICE: 17 (balance: 0.000000)
+(18) --- 
+(19) --- 
+(20) --- 
+incoming string length: 8
+incoming message: open 18
+
+OPEN command recieved
+Account Name: 18
+incoming string length: 8
+incoming message: open 19
+
+OPEN command recieved
+Account Name: 19
+incoming string length: 8
+incoming message: open 20
+
+OPEN command recieved
+Account Name: 20
+incoming string length: 8
+incoming message: open 21
+
+OPEN command recieved
+Account Name: 21
+
+20 second bank print out for account sessions:
+(1) NOT IN SERVICE: 1 (balance: 0.000000)
+(2) NOT IN SERVICE: 2 (balance: 0.000000)
+(3) NOT IN SERVICE: 3 (balance: 0.000000)
+(4) NOT IN SERVICE: 4 (balance: 0.000000)
+(5) NOT IN SERVICE: 5 (balance: 0.000000)
+(6) NOT IN SERVICE: 6 (balance: 0.000000)
+(7) NOT IN SERVICE: 7 (balance: 0.000000)
+(8) NOT IN SERVICE: 8 (balance: 0.000000)
+(9) NOT IN SERVICE: 9 (balance: 0.000000)
+(10) NOT IN SERVICE: 10 (balance: 0.000000)
+(11) NOT IN SERVICE: 11 (balance: 0.000000)
+(12) NOT IN SERVICE: 12 (balance: 0.000000)
+(13) NOT IN SERVICE: 13 (balance: 0.000000)
+(14) NOT IN SERVICE: 14 (balance: 0.000000)
+(15) NOT IN SERVICE: 15 (balance: 0.000000)
+(16) NOT IN SERVICE: 16 (balance: 0.000000)
+(17) NOT IN SERVICE: 17 (balance: 0.000000)
+(18) NOT IN SERVICE: 18 (balance: 0.000000)
+(19) NOT IN SERVICE: 19 (balance: 0.000000)
+(20) NOT IN SERVICE: 20 (balance: 0.000000)
+incoming string length: 7
+incoming message: finish
+
+FINISH command received
+incoming string length: 5
+incoming message: exit
+
+EXIT command received
+^C

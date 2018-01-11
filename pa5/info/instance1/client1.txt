@@ -1,0 +1,56 @@
+Last login: Wed Dec  9 18:07:35 on ---
+--- $ ./client localhost
+
+Client has connected to server on machine: "localhost".
+Enter message: 
+Open Charles
+number of bytes written: 13
+sent: Open Charles
+ of length: 13
+message from server: "Account Charles was added!"
+message from server: "Account Charles found!"
+Enter message: 
+finish
+number of bytes written: 7
+sent: finish
+ of length: 7
+message from server: "Logged out!"
+open BEnter message: 
+^R   
+open Biggie
+number of bytes written: 12
+sent: open Biggie
+ of length: 12
+message from server: "The account you are trying to put in is already here."
+message from server: "Account is in use! Reattempting..."
+Enter message: 
+message from server: "Account is in use! Reattempting..."
+message from server: "Account is in use! Reattempting..."
+message from server: "Account is in use! Reattempting..."
+message from server: "Account is in use! Reattempting..."
+message from server: "Account Biggie found!"
+open Gary
+number of bytes written: 10
+sent: open Gary
+ of length: 10
+message from server: "You're already logged in somewhere else! Please log out.
+"
+Enter message: 
+debit 333
+number of bytes written: 10
+sent: debit 333
+ of length: 10
+Enter message: 
+credit 34833
+number of bytes written: 13
+sent: credit 34833
+ of length: 13
+message from server: "Your balance after credit is now: 35166.000000"
+Enter message: 
+exit
+number of bytes written: 5
+sent: exit
+ of length: 5
+message from server: "exit"
+Exiting from server.
+Disconnected from server.
